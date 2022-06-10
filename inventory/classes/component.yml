@@ -1,0 +1,8 @@
+parameters:
+  kapitan:
+    compile:
+      - output_path: kadet_output
+        input_type: kadet
+        output_type: yaml
+        input_paths:
+          - components/component/
