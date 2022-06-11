@@ -4,5 +4,5 @@ kubelib = kadet.load_from_search_paths("kube")
 
 def main():
     return {
-        "component": kubelib.Baz(name="component_name")
+        "component": kubelib.Bar(name="component_name")
     }

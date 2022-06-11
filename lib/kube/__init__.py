@@ -1,9 +1,7 @@
-# from kapitan.inputs.kadet import BaseObj
-import sys
-sys.path.append("..")
-from ..base.foo import Foo
+## The problem is loading the Foo from base "module"
+from base.foo import Foo
 
-class Baz(Foo):
+class Bar(Foo):
     def new(self):
         self.need("name", "name string needed")
 

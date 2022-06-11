@@ -1,5 +1,5 @@
 from kapitan.inputs.kadet import BaseObj
 
 class Foo(BaseObj):
-    def bar():
+    def print():
         print("bar")
