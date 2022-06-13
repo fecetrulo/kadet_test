@@ -1,7 +1,8 @@
-## The problem is loading the Foo from base "module"
-from base.foo import Foo
+from kapitan.inputs.kadet import load_from_search_paths
 
-class Bar(Foo):
+base = load_from_search_paths("base")
+
+class Bar(base.Foo):
     def new(self):
         self.need("name", "name string needed")
 
