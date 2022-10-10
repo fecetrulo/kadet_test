@@ -1,15 +1,22 @@
 _id: req_98d62e3dde3346eaa9fea9b545274612
 type: Request
 parentId: wrk_82431466bbc5463aab317c4c5b19fe0c
-modified: 1665412872327
+modified: 1665423161056
 created: 1665412862641
 url: localhost:5050/test
-name: New Request
+name: Request de TESTE
 description: ""
 method: GET
-body: {}
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"test": "Body_test"
+    }
 parameters: []
-headers: []
+headers:
+  - name: Content-Type
+    value: application/json
 authentication: {}
 metaSortKey: -1665412862641
 isPrivate: false
